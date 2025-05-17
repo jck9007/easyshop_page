@@ -10,7 +10,7 @@ body {
 /* Estilos del encabezado (hero) */
 
 .hero {
-    background-color: #007bff;
+    background-color: #2B8FCC;
     /* Un color azul llamativo */
     color: #fff;
     text-align: center;
@@ -35,7 +35,7 @@ body {
 .cta-button {
     display: inline-block;
     background-color: #fff;
-    color: #007bff;
+    color: #2B8FCC;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
@@ -83,7 +83,7 @@ main {
 
 .feature h3 {
     font-size: 1.5em;
-    color: #007bff;
+    color: #2B8FCC;
     margin-bottom: 10px;
 }
 
