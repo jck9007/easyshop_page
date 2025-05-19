@@ -7,18 +7,38 @@ body {
 }
 
 
-/* Estilos del encabezado (hero) */
+/* NAVIGATION */
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+/* HEADER */
 
 .hero {
     background-color: #2B8FCC;
-    /* Un color azul llamativo */
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
+    padding-top: 20px;
 }
 
 .hero-content {
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -32,19 +52,75 @@ body {
     margin-bottom: 30px;
 }
 
-.cta-button {
-    display: inline-block;
-    background-color: #fff;
-    color: #2B8FCC;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+
+/* MAIN IMAGE */
+
+.colored-square {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to bottom, #2B8FCC 50%, #f8f8f8 50%);
+    position: relative;
 }
 
-.cta-button:hover {
-    background-color: #e0e0e0;
+.image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.image {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-text-section {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.image-column {
+    flex: 3;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.image-column img {
+    max-width: 70%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.text-column {
+    flex: 4;
+}
+
+.text-column h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.text-column p {
+    font-size: 1.2em;
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 15px;
 }
 
 
@@ -95,6 +171,7 @@ main {
     background-color: #f0f0f0;
     text-align: center;
     padding: 60px 20px;
+    margin-top: 50px;
 }
 
 .call-to-action h2 {
@@ -126,7 +203,7 @@ main {
 }
 
 
-/* Estilos del pie de página */
+/* FOOTER */
 
 footer {
     background-color: #333;
@@ -165,3 +242,22 @@ footer a:hover {
         font-size: 1em;
     }
 }
+
+.image-columns-section {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.center-image {
+    margin: 0 40px;
+}
+
+.side-image {
+    margin: 20px 0px;
+}
+
+
+/* .column img {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+} */
